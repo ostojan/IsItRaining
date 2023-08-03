@@ -16,6 +16,7 @@
 		D4EF7D2B2A78395A00D1B297 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF7D2A2A78395A00D1B297 /* WeatherData.swift */; };
 		D4EF7D2D2A783CA400D1B297 /* WeatherWind.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF7D2C2A783CA400D1B297 /* WeatherWind.swift */; };
 		D4EF7D312A79929400D1B297 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF7D302A79929400D1B297 /* LocationData.swift */; };
+		D4EF7D342A7C290B00D1B297 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4EF7D332A7C290B00D1B297 /* Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D4EF7D2A2A78395A00D1B297 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		D4EF7D2C2A783CA400D1B297 /* WeatherWind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWind.swift; sourceTree = "<group>"; };
 		D4EF7D302A79929400D1B297 /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		D4EF7D332A7C290B00D1B297 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		D4EF7D162A7830AD00D1B297 /* IsItRaining */ = {
 			isa = PBXGroup;
 			children = (
+				D4EF7D322A7C28D500D1B297 /* Config */,
 				D4EF7D252A7831B700D1B297 /* Data */,
 				D4EF7D172A7830AD00D1B297 /* IsItRainingApp.swift */,
 				D4EF7D192A7830AD00D1B297 /* ContentView.swift */,
@@ -88,6 +91,14 @@
 				D4EF7D2C2A783CA400D1B297 /* WeatherWind.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		D4EF7D322A7C28D500D1B297 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D4EF7D332A7C290B00D1B297 /* Config.plist */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EF7D342A7C290B00D1B297 /* Config.plist in Resources */,
 				D4EF7D1F2A7830AE00D1B297 /* Preview Assets.xcassets in Resources */,
 				D4EF7D1C2A7830AE00D1B297 /* Assets.xcassets in Resources */,
 			);
