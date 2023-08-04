@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D43A054B2A7D97AB00DC747D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4EF7D142A7830AD00D1B297 /* IsItRaining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsItRaining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EF7D172A7830AD00D1B297 /* IsItRainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsItRainingApp.swift; sourceTree = "<group>"; };
 		D4EF7D192A7830AD00D1B297 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 			children = (
 				D4EF7D322A7C28D500D1B297 /* Config */,
 				D4EF7D252A7831B700D1B297 /* Data */,
+				D43A054B2A7D97AB00DC747D /* Info.plist */,
 				D4EF7D172A7830AD00D1B297 /* IsItRainingApp.swift */,
 				D4EF7D192A7830AD00D1B297 /* ContentView.swift */,
 				D4EF7D1B2A7830AE00D1B297 /* Assets.xcassets */,
@@ -314,6 +316,7 @@
 				DEVELOPMENT_TEAM = 9R8632TC52;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IsItRaining/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -343,6 +346,7 @@
 				DEVELOPMENT_TEAM = 9R8632TC52;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IsItRaining/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
