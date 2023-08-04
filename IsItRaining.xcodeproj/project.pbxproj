@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D4793EFA2A8B861500510FF2 /* LocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4793EF92A8B861500510FF2 /* LocationDataSource.swift */; };
+		D4793EFC2A8B865700510FF2 /* WeatherDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4793EFB2A8B865700510FF2 /* WeatherDataSource.swift */; };
 		D4EF7D182A7830AD00D1B297 /* IsItRainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF7D172A7830AD00D1B297 /* IsItRainingApp.swift */; };
 		D4EF7D1A2A7830AD00D1B297 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF7D192A7830AD00D1B297 /* ContentView.swift */; };
 		D4EF7D1C2A7830AE00D1B297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EF7D1B2A7830AE00D1B297 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		D43A054B2A7D97AB00DC747D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4793EF92A8B861500510FF2 /* LocationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataSource.swift; sourceTree = "<group>"; };
+		D4793EFB2A8B865700510FF2 /* WeatherDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataSource.swift; sourceTree = "<group>"; };
 		D4EF7D142A7830AD00D1B297 /* IsItRaining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsItRaining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EF7D172A7830AD00D1B297 /* IsItRainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsItRainingApp.swift; sourceTree = "<group>"; };
 		D4EF7D192A7830AD00D1B297 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				D4793EF92A8B861500510FF2 /* LocationDataSource.swift */,
+				D4793EFB2A8B865700510FF2 /* WeatherDataSource.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				D4EF7D312A79929400D1B297 /* LocationData.swift in Sources */,
 				D4793EFA2A8B861500510FF2 /* LocationDataSource.swift in Sources */,
 				D4EF7D362A7C2A6900D1B297 /* Config.swift in Sources */,
+				D4793EFC2A8B865700510FF2 /* WeatherDataSource.swift in Sources */,
 				D4EF7D2D2A783CA400D1B297 /* WeatherWind.swift in Sources */,
 				D4EF7D2B2A78395A00D1B297 /* WeatherData.swift in Sources */,
 			);
