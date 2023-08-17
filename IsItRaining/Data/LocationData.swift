@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LocationData: Decodable {
+struct LocationData: Decodable, Hashable, Identifiable {
     var name: String
     var localNames: [String: String] = [:]
     var latitude: Double
@@ -34,5 +34,9 @@ struct LocationData: Decodable {
         if let state = try container.decodeIfPresent(String.self, forKey: .state) {
             self.state = state
         }
+    }
+
+    var id: Int {
+        hashValue
     }
 }
