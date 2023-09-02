@@ -10,6 +10,7 @@ import SwiftUI
 struct LocationSearchView: View {
     @State private var locationText = ""
     @State private var locations = [LocationData]()
+    let onLocationSelect: (LocationData) -> Void
 
     var body: some View {
         List {
@@ -27,7 +28,11 @@ struct LocationSearchView: View {
                     Text("No location found")
                 } else {
                     ForEach(locations) { location in
-                        LocationListCell(for: location)
+                        Button {
+                            onLocationSelect(location)
+                        } label: {
+                            LocationListCell(for: location)
+                        }
                     }
                 }
             }
@@ -44,6 +49,6 @@ struct LocationSearchView: View {
 
 struct LocationSearchView_Previews: PreviewProvider {
     static var previews: some View {
-        LocationSearchView()
+        LocationSearchView(onLocationSelect: { _ in })
     }
 }
