@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    enum Section {
+        case weather, location
+    }
+
+    @State private var selectedTab = Section.weather
+    @State private var locationData: LocationData?
+    @State private var weatherData: WeatherData?
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView(selection: $selectedTab) {
+            CurrentWeatherView(location: locationData)
+                .tabItem {
+                    Label("Weather", systemImage: "cloud.sun")
+                }
+                .tag(Section.weather)
+
+            LocationSearchView { newLocationData in
+                locationData = newLocationData
+                selectedTab = .weather
+            }
+            .tabItem {
+                Label("Location", systemImage: "location")
+            }
+            .tag(Section.location)
         }
-        .padding()
     }
 }
 
